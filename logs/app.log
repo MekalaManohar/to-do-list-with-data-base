@@ -1,0 +1,59 @@
+{"name":"logs","hostname":"Letsflos-MBP","pid":6179,"level":30,"msg":"router loaded","time":"2023-08-26T09:28:55.061Z","v":0}
+{"name":"logs","hostname":"Letsflos-MBP","pid":6196,"level":30,"msg":"router loaded","time":"2023-08-26T09:29:06.841Z","v":0}
+{"name":"logs","hostname":"Letsflos-MBP","pid":6206,"level":30,"msg":"router loaded","time":"2023-08-26T09:29:12.338Z","v":0}
+{"name":"logs","hostname":"Letsflos-MBP","pid":6215,"level":30,"msg":"router loaded","time":"2023-08-26T09:29:23.138Z","v":0}
+{"name":"logs","hostname":"Letsflos-MBP","pid":6224,"level":30,"msg":"router loaded","time":"2023-08-26T09:29:42.612Z","v":0}
+{"name":"logs","hostname":"Letsflos-MBP","pid":6234,"level":30,"msg":"router loaded","time":"2023-08-26T09:29:54.513Z","v":0}
+{"name":"logs","hostname":"Letsflos-MBP","pid":6247,"level":30,"msg":"router loaded","time":"2023-08-26T09:30:01.667Z","v":0}
+{"name":"logs","hostname":"Letsflos-MBP","pid":6247,"level":30,"msg":"REQUEST: GET URL: / Query: {} Params: {}","time":"2023-08-26T09:30:54.789Z","v":0}
+{"name":"logs","hostname":"Letsflos-MBP","pid":6247,"level":30,"msg":"REQUEST: GET URL: / Query: {} Params: {}","time":"2023-08-26T09:30:55.086Z","v":0}
+{"name":"logs","hostname":"Letsflos-MBP","pid":6247,"level":30,"msg":"REQUEST: GET URL: / Query: {} Params: {}","time":"2023-08-26T09:31:03.085Z","v":0}
+{"name":"logs","hostname":"Letsflos-MBP","pid":6247,"level":30,"msg":"REQUEST: GET URL: / Query: {} Params: {}","time":"2023-08-26T09:31:17.221Z","v":0}
+{"name":"logs","hostname":"Letsflos-MBP","pid":6247,"level":30,"msg":"REQUEST: GET URL: / Query: {} Params: {}","time":"2023-08-26T09:31:38.408Z","v":0}
+{"name":"logs","hostname":"Letsflos-MBP","pid":6247,"level":30,"msg":"REQUEST: POST URL: /create Query: {} Params: {}","time":"2023-08-26T09:31:52.231Z","v":0}
+{"name":"logs","hostname":"Letsflos-MBP","pid":6247,"level":30,"msg":"REQUEST: GET URL: / Query: {} Params: {}","time":"2023-08-26T09:31:52.248Z","v":0}
+{"name":"logs","hostname":"Letsflos-MBP","pid":6247,"level":30,"msg":"REQUEST: POST URL: /create Query: {} Params: {}","time":"2023-08-26T09:32:01.752Z","v":0}
+{"name":"logs","hostname":"Letsflos-MBP","pid":6247,"level":30,"msg":"REQUEST: GET URL: / Query: {} Params: {}","time":"2023-08-26T09:32:01.760Z","v":0}
+{"name":"logs","hostname":"Letsflos-MBP","pid":6247,"level":30,"msg":"REQUEST: GET URL: /complete-all Query: {} Params: {}","time":"2023-08-26T09:32:06.882Z","v":0}
+{"name":"logs","hostname":"Letsflos-MBP","pid":6247,"level":30,"msg":"REQUEST: GET URL: / Query: {} Params: {}","time":"2023-08-26T09:32:06.898Z","v":0}
+{"name":"logs","hostname":"Letsflos-MBP","pid":6247,"level":30,"msg":"REQUEST: GET URL: /complete-all Query: {} Params: {}","time":"2023-08-26T09:32:07.893Z","v":0}
+{"name":"logs","hostname":"Letsflos-MBP","pid":6247,"level":30,"msg":"REQUEST: GET URL: / Query: {} Params: {}","time":"2023-08-26T09:32:07.901Z","v":0}
+{"name":"logs","hostname":"Letsflos-MBP","pid":6247,"level":30,"msg":"REQUEST: GET URL: /status/64e9c5881a6b0c481490ad7e Query: {} Params: {}","time":"2023-08-26T09:32:09.381Z","v":0}
+{"name":"logs","hostname":"Letsflos-MBP","pid":6247,"level":30,"msg":"REQUEST: GET URL: / Query: {} Params: {}","time":"2023-08-26T09:32:51.779Z","v":0}
+{"name":"logs","hostname":"Letsflos-MBP","pid":6247,"level":30,"msg":"REQUEST: GET URL: / Query: {} Params: {}","time":"2023-08-26T09:32:57.651Z","v":0}
+{"name":"logs","hostname":"Letsflos-MBP","pid":6247,"level":30,"msg":"REQUEST: GET URL: /delete/64e9c5911a6b0c481490ad81 Query: {} Params: {}","time":"2023-08-26T09:33:27.518Z","v":0}
+{"name":"logs","hostname":"Letsflos-MBP","pid":6247,"level":30,"msg":"REQUEST: GET URL: / Query: {} Params: {}","time":"2023-08-26T09:33:27.530Z","v":0}
+{"name":"logs","hostname":"Letsflos-MBP","pid":6247,"level":30,"msg":"REQUEST: GET URL: / Query: {} Params: {}","time":"2023-08-26T09:33:54.049Z","v":0}
+{"name":"logs","hostname":"Letsflos-MBP","pid":6247,"level":30,"msg":"REQUEST: GET URL: / Query: {} Params: {}","time":"2023-08-26T09:34:22.873Z","v":0}
+{"name":"logs","hostname":"Letsflos-MBP","pid":6247,"level":30,"msg":"REQUEST: GET URL: / Query: {} Params: {}","time":"2023-08-26T09:34:56.191Z","v":0}
+{"name":"logs","hostname":"Letsflos-MBP","pid":6247,"level":30,"msg":"REQUEST: GET URL: / Query: {} Params: {}","time":"2023-08-26T09:35:09.603Z","v":0}
+{"name":"logs","hostname":"Letsflos-MBP","pid":6247,"level":30,"msg":"REQUEST: GET URL: / Query: {} Params: {}","time":"2023-08-26T09:35:30.885Z","v":0}
+{"name":"logs","hostname":"Letsflos-MBP","pid":6247,"level":30,"msg":"REQUEST: GET URL: / Query: {} Params: {}","time":"2023-08-26T09:38:33.925Z","v":0}
+{"name":"logs","hostname":"Letsflos-MBP","pid":6247,"level":30,"msg":"REQUEST: GET URL: / Query: {} Params: {}","time":"2023-08-26T09:39:03.846Z","v":0}
+{"name":"logs","hostname":"Letsflos-MBP","pid":6247,"level":30,"msg":"REQUEST: GET URL: / Query: {} Params: {}","time":"2023-08-26T09:39:39.655Z","v":0}
+{"name":"logs","hostname":"Letsflos-MBP","pid":6443,"level":30,"msg":"router loaded","time":"2023-08-26T09:41:44.469Z","v":0}
+{"name":"logs","hostname":"Letsflos-MBP","pid":6453,"level":30,"msg":"router loaded","time":"2023-08-26T09:42:16.121Z","v":0}
+{"name":"logs","hostname":"Letsflos-MBP","pid":6453,"level":30,"msg":"REQUEST: GET URL: / Query: {} Params: {}","time":"2023-08-26T09:42:42.577Z","v":0}
+{"name":"logs","hostname":"Letsflos-MBP","pid":6453,"level":30,"msg":"REQUEST: GET URL: /status/64e9c59e1a6b0c481490ad84 Query: {} Params: {}","time":"2023-08-26T09:42:46.754Z","v":0}
+{"name":"logs","hostname":"Letsflos-MBP","pid":6453,"level":30,"msg":"REQUEST: GET URL: / Query: {} Params: {}","time":"2023-08-26T09:42:49.773Z","v":0}
+{"name":"logs","hostname":"Letsflos-MBP","pid":6480,"level":30,"msg":"router loaded","time":"2023-08-26T09:43:41.555Z","v":0}
+{"name":"logs","hostname":"Letsflos-MBP","pid":6480,"level":30,"msg":"REQUEST: GET URL: / Query: {} Params: {}","time":"2023-08-26T09:46:03.965Z","v":0}
+{"name":"logs","hostname":"Letsflos-MBP","pid":6480,"level":30,"msg":"REQUEST: GET URL: / Query: {} Params: {}","time":"2023-08-26T09:46:38.341Z","v":0}
+{"name":"logs","hostname":"Letsflos-MBP","pid":6480,"level":30,"msg":"REQUEST: GET URL: / Query: {} Params: {}","time":"2023-08-26T09:46:39.494Z","v":0}
+{"name":"logs","hostname":"Letsflos-MBP","pid":6480,"level":30,"msg":"REQUEST: GET URL: / Query: {} Params: {}","time":"2023-08-26T09:47:02.049Z","v":0}
+{"name":"logs","hostname":"Letsflos-MBP","pid":6480,"level":30,"msg":"REQUEST: GET URL: / Query: {} Params: {}","time":"2023-08-26T09:47:12.544Z","v":0}
+{"name":"logs","hostname":"Letsflos-MBP","pid":6480,"level":30,"msg":"REQUEST: GET URL: /status/64e9c59e1a6b0c481490ad84 Query: {} Params: {}","time":"2023-08-26T09:47:15.993Z","v":0}
+{"name":"logs","hostname":"Letsflos-MBP","pid":6480,"level":30,"msg":"REQUEST: GET URL: /status/64e9c59e1a6b0c481490ad84 Query: {} Params: {}","time":"2023-08-26T09:47:20.889Z","v":0}
+{"name":"logs","hostname":"Letsflos-MBP","pid":6480,"level":30,"msg":"REQUEST: GET URL: /status/64e9c59e1a6b0c481490ad84 Query: {} Params: {}","time":"2023-08-26T09:47:21.673Z","v":0}
+{"name":"logs","hostname":"Letsflos-MBP","pid":6480,"level":30,"msg":"REQUEST: GET URL: /status/64e9c59e1a6b0c481490ad84 Query: {} Params: {}","time":"2023-08-26T09:47:22.985Z","v":0}
+{"name":"logs","hostname":"Letsflos-MBP","pid":6480,"level":30,"msg":"REQUEST: GET URL: /status/64e9c5881a6b0c481490ad7e Query: {} Params: {}","time":"2023-08-26T09:47:23.705Z","v":0}
+{"name":"logs","hostname":"Letsflos-MBP","pid":6480,"level":30,"msg":"REQUEST: GET URL: /status/64e9c5881a6b0c481490ad7e Query: {} Params: {}","time":"2023-08-26T09:47:24.337Z","v":0}
+{"name":"logs","hostname":"Letsflos-MBP","pid":6480,"level":30,"msg":"REQUEST: GET URL: / Query: {} Params: {}","time":"2023-08-26T09:47:25.938Z","v":0}
+{"name":"logs","hostname":"Letsflos-MBP","pid":6480,"level":30,"msg":"REQUEST: GET URL: /status/64e9c5881a6b0c481490ad7e Query: {} Params: {}","time":"2023-08-26T09:47:27.225Z","v":0}
+{"name":"logs","hostname":"Letsflos-MBP","pid":6480,"level":30,"msg":"REQUEST: GET URL: / Query: {} Params: {}","time":"2023-08-26T09:47:28.051Z","v":0}
+{"name":"logs","hostname":"Letsflos-MBP","pid":6480,"level":30,"msg":"REQUEST: GET URL: / Query: {} Params: {}","time":"2023-08-26T09:47:54.042Z","v":0}
+{"name":"logs","hostname":"Letsflos-MBP","pid":6480,"level":30,"msg":"REQUEST: GET URL: / Query: {} Params: {}","time":"2023-08-26T09:48:50.397Z","v":0}
+{"name":"logs","hostname":"Letsflos-MBP","pid":6480,"level":30,"msg":"REQUEST: GET URL: / Query: {} Params: {}","time":"2023-08-26T09:49:41.894Z","v":0}
+{"name":"logs","hostname":"Letsflos-MBP","pid":6480,"level":30,"msg":"REQUEST: GET URL: /complete-all Query: {} Params: {}","time":"2023-08-26T09:49:43.394Z","v":0}
+{"name":"logs","hostname":"Letsflos-MBP","pid":6480,"level":30,"msg":"REQUEST: GET URL: / Query: {} Params: {}","time":"2023-08-26T09:49:43.404Z","v":0}
+{"name":"logs","hostname":"Letsflos-MBP","pid":6480,"level":30,"msg":"REQUEST: GET URL: / Query: {} Params: {}","time":"2023-08-26T09:50:25.737Z","v":0}

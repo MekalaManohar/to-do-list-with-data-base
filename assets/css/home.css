@@ -1,0 +1,160 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.home {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.action-form {
+  flex: 1;
+  background-color: #f0f0f0;
+}
+
+.data {
+  flex: 1;
+  margin-left: 20px;
+  padding: 20px;
+  background-color: #f0f0f0;
+  border-radius: 8px;
+}
+
+form {
+  max-width: 500px;
+  margin: auto;
+  padding: 10px;
+  background: white;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.data {
+  flex: 1;
+  margin-left: 20px;
+  padding: 20px;
+  background-color: #f0f0f0;
+  border-radius: 8px;
+}
+
+label,
+select,
+input[type="text"],
+input[type="date"],
+input[type="time"],
+input[type="category"],
+button {
+  display: block;
+  margin-left: 7%;
+  margin-bottom: 5px;
+}
+
+.data-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.type-WORK {
+  color: red;
+}
+.type-HOME {
+  color: green;
+}
+.type-PERSONAL {
+  color: orange;
+}
+.type-CHILD {
+  color: blue;
+}
+.type-HEALTH {
+  color: green;
+}
+.type-OTHERS {
+  color: gray;
+}
+
+select,
+input[type="text"],
+input[type="date"],
+input[type="time"],
+input[type="category"] {
+  width: 80%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+button {
+  background: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #0056b3;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th,
+td {
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+tr:hover {
+  background-color: lightgrey; /* Change background color on hover */
+}
+
+input[type="checkbox"]:checked ~ td {
+  text-decoration: line-through;
+}
+
+.delete-icon {
+  color: red; /* Set the color to red */
+}
+
+.strikethrough {
+  text-decoration: line-through;
+}
+
+.normal {
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  background-color: lightgray;
+}
+
+.all {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-top: 20px;
+  padding: 20px;
+}

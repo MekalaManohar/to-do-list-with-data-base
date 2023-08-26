@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TO-DO list</title>
+    <link rel="stylesheet" href="/css/home.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.13.1/css/all.css"
+      integrity="sha384-xxzQGERXS00kBmZW/6qxqJPyxW3UR0BPsL4c8ILaIWXva5kFi7TxkIIaMiKtqV1Q"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <h1>TO-DO List</h1>
+    <div class="home">
+      <div class="action-form">
+        <form action="/create" method="post">
+          <div style="align-items: center;">
+            <h3>Create My TO-DO List</h3><br/>
+            <label for="task">Task:</label>
+            <input type="text" id="task" name="name" placeholder="Please Enter here..." required /><br/>
+
+            <label for="date">Date:</label>
+            <input type="date" id="date" name="date" required /><br/>
+
+            <label for="time">Time:</label>
+            <input
+              type="time"
+              name="time"
+              class="time-input"
+              placeholder="Select a time"
+            /><br/>
+            <label for="category">Category:</label>
+            <select id="category" name="category" required>
+              <option value="WORK">Work</option>
+              <option value="HOME">Home</option>
+              <option value="PERSONAL">Personal</option>
+              <option value="CHILD">Child</option>
+              <option value="HEALTH">Health</option>
+              <option value="OTHERS">Others</option></select
+            ><br/>
+
+            <button type="submit">Submit</button>
+          </div>
+        </form>
+      </div>
+      <div class="data">
+        <h1>My TO-DO List</h1>
+        <div>
+          <table>
+            <thead>
+              <tr>
+                <th></th>
+                <th>Name</th>
+                <th>Date</th>
+                <th>Time</th>
+                <th>Type</th>
+                <th></th>
+              </tr>
+            </thead>
+            <tbody>
+              <% for (const item of lists) { %>
+              <tr>
+                <td>
+                  <input type="checkbox" id="checkbox-<%= item._id %>"
+                  name="selectedItems" onclick="updateStatus('<%= item._id %>')"
+                  <% if (item.status =="Completed") { %> checked <% } %>
+                  value="<%= item._id %>" />
+                </td>
+                <td
+                  class="<%= item.status === 'Completed' ? 'strikethrough' : '' %> checked-<%= item._id %>"
+                >
+                  <%= item.name %>
+                </td>
+                <td
+                  class="<%= item.status === 'Completed' ? 'strikethrough' : '' %> checked-<%= item._id %>"
+                >
+                <%= new Date(item.date).toLocaleDateString("en-IN", { day: '2-digit', month: '2-digit', year: 'numeric' }); %>
+                </td>
+                <td
+                  class="<%= item.status === 'Completed' ? 'strikethrough' : '' %> checked-<%= item._id %>"
+                >
+                  <%= item.time %>
+                </td>
+                <td
+                  class="<%= item.status === 'Completed' ? 'strikethrough' : '' %> checked-<%= item._id %>"
+                >
+                  <strong>
+                    <span class="type-<%= item.category %>">
+                      <%= item.category %>
+                    </span
+                  ></strong
+                  >
+                </td>
+                <td>
+                  <a href="/delete/<%= item._id %>">
+                    <i class="fas fa-trash-alt delete-icon"></i>
+                  </a>
+                </td>
+              </tr>
+              <% } %>
+            </tbody>
+          </table>
+        </div>
+        <% if ((lists||[]).length) { %>
+        <div class="all">
+          <a href="/complete-all">
+            <span>Complete All</span>
+          </a>
+          <a href="/delete-all">
+            <span>Delete All</span>
+          </a>
+        </div>
+        <% } %>
+      </div>
+    </div>
+
+    <script type="text/javascript" src="javascript/home.js"></script>
+  </body>
+</html>
